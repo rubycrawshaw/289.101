@@ -1,0 +1,13 @@
+.violettext{
+    color:violet;
+}
+.box1{
+    width:200px;
+    height:200px;
+    background-color:#ff0000;
+}
+.box2{
+    width:200px;
+    height:200px;
+    background-color:#0000ff;
+}
