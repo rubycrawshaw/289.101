@@ -18,11 +18,11 @@ div {
 }
 .smallyellow{
     background-color: yellow;
-    height: 180px;
-    width: 445px;
+    height: 160px;
+    width: 430px;
     float:left;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .redcontent{
     background-color: red;
@@ -31,9 +31,9 @@ div {
 }
 .bigyellow{
     background-color: yellow;
-    width: 445px;
-    height: 480px;
+    width: 430px;
+    height: 460px;
     float: left;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
