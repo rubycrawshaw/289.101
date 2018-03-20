@@ -1,4 +1,4 @@
-.div {
+div {
     outline: 1px solid lime;
 }
 .container {
@@ -13,7 +13,7 @@
 }
 .redboxes {
     background-color: red;
-    width: 326px;
+    width: 306px;
     height: 400px;
     float: left;
 }
