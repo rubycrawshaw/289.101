@@ -75,4 +75,13 @@ body{
     float: left;
     color: #666d89;
     margin-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+.cotext{
+    color: #767e9e;
+    float: left;
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
