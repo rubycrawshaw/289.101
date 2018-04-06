@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+div{
+    outline: 1px solid cyan;
+}
+body{
+    background-color: #d9c5e6;
+    margin: 0;
+    font-family: 'ABeeZee', sans-serif;
+}
+.toolbar{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+.logo{
+    color: #412455;
+    float: left;
+    font-size: 1.4rem;
+    margin-top: 35px;
+}
+.links{
+    color: #412455;
+    float: right;
+    margin-top: 40px;
+    font-size: 0.75rem;
+}
+.links a{
+    color: #412455;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.links a:hover{
+    color: #fff88c;
+}
+.homeback{
+    height: 600px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff88c;
+    border: 2px #ffffff solid;
+}
+.homebox{
+    height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
