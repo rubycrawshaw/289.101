@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+*{
+    outline: 1px solid cyan;
+}
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    background-color: white;
+    color: #51177d;
+    height: 30px;
+}
+.nav{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    width: 20px;
+    height: 18px;
+    opacity: 1;
+    filter: opacity(100);
+    float: right;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.img:hover{
+    opacity: 0.3;
+    filter: opacity(30)
+}
