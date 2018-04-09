@@ -11,6 +11,7 @@ body{
     background-color: white;
     color: #51177d;
     height: 30px;
+    border-bottom: 5px solid #f2f2f2;
 }
 .nav{
     max-width: 900px;
@@ -29,4 +30,280 @@ body{
 .img:hover{
     opacity: 0.3;
     filter: opacity(30)
+}
+.welcome{
+    height: 600px;
+    padding: 1px 0;
+    background-color: #ffffff;
+    border-bottom: 5px solid #f2f2f2
+}
+.hi{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.me{
+    height: 100%;
+    float: left;
+}
+.ruby{
+    color: #543963;
+    float: left;
+    font-size: 3em;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+}
+.name{
+    color: #9348bc;
+    float: left;
+    font-size: 5em;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.study{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #543963;
+    font-size: 1rem;
+}
+.aboutme{
+    height: 300px;
+    background-color: #f2f2f2;
+    padding: 1px 0;
+}
+.aboutbox{
+    height: 250px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mememe{
+    float: left;
+    margin-left: 411px;
+    margin-right: 411px;
+    margin-bottom: 0px;
+    color: #543963;
+}
+.about{
+    float: left;
+    font-size: 2rem;
+    margin-left: 389px;
+    margin-right: 389px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color: #9348bc;
+}
+.aboutpara{
+    float: left;
+    width: 750px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #543963;
+}
+.past{
+    background-color: #fff568;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 350px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #543963;
+    filter: opacity(100)
+}
+.future{
+    background-color: #fff568;
+    float: right;
+    padding-left: 23px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 350px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #543963;
+    filter: opacity(100)
+}
+.past:hover{
+    background-color: #ffffff;
+    color: #f9d33d;
+}
+.future:hover{
+    background-color: #ffffff;
+    color: #f9d33d;
+}
+.school{
+    height: 500px;
+    background-color: #f2f2f2;
+    border-bottom: 5px solid #d8d8d8;
+    padding: 1px 0;
+}
+.schoolbox{
+    height: 440px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.edu{
+    width: 273px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.now{
+    width: 273px;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.skills{
+    width: 273px;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ed{
+    color: #543963;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.edtitle{
+    color: #543963;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+.edpara{
+    color: #543963;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 0.96rem;
+}
+.college{
+    color: #543963;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+.colpara{
+    color: #543963;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.96rem;
+}
+.nowtitle{
+    color: #543963;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.nowpara{
+    color: #543963;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 0.96rem;
+}
+.nowpara2{
+    color: #543963;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.96rem;
+}
+.skillstitle{
+    color: #543963;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+.drawing{
+    color: #543963;
+    font-size: 1.4rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 75px;
+    float: left;
+    margin-right: 10px;
+}
+.pencil{
+    width: 27px;
+    margin-top: 0px;
+    float: left;
+}
+.pencilline{
+    width: 260px;
+    margin-left: 5px;
+    margin-bottom: 20px
+}
+.creativity{
+    color: #543963;
+    font-size: 1.4rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 85px;
+    float: left;
+    margin-right: 10px;
+}
+.create{
+    width: 40px;
+    float: left;
+    margin-left:
+}
+.createline{
+    width: 260px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.maths{
+    color: #543963;
+    font-size: 1.4rem;
+    margin-top: 0px;
+    width: 55px;
+    float: left;
+    margin-right: 10px;
+}
+.mathspic{
+    width: 27px;
+    float: left;
+    margin-bottom: 10px;
+}
+.mathline{
+    width: 260px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.english{
+    color: #543963;
+    font-size: 1.4rem;
+    margin-top: 0px;
+    width: 65px;
+    float: left;
+    margin-right: 10px;
+}
+.englisha{
+    width: 18px;
+    margin-bottom: 10px;
+    float: left;
+}
+.englishline{
+    width: 260px;
+    margin-left: 5px;
+    margin-bottom: 10px;
 }
