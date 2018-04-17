@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    
 </head>
     
 <body>
@@ -20,7 +25,6 @@
             
                 <a href="#">ABOUT</a>
                 <a href="#">PORTFOLIO</a>
-                <a href="#">CONTACT</a>
                 <a href="#">SOCIAL MEDIA</a>
             
             </div>
@@ -47,7 +51,7 @@
         
             <h3 class="mememe">Me Me Me</h3>
             <h2 class="about">About Me</h2>
-            <p class="aboutpara">My name you already know is Ruby Crawshaw I am 18 years old. I was born and raised in Taranaki in a small place called Omata. I have lived on a large lifestyle block since I was two years old and have loved every minute of it. My parent are still together and love each other, and I am the oldest of four siblings. I have two brothers one 14 amd one 12 and a younger sister who is 10. Yes they are the most annoying people to live with in all the world, but I love them. </p>
+            <p class="aboutpara">My name you already know is Ruby Crawshaw I am 18 years old. I was born and raised in Taranaki in a small place called Omata. I have lived on a large lifestyle block since I was two years old and have loved every minute of it. My parent are still together and love each other, and I am the oldest of four siblings. I have two brothers one 14 and one 12 and a younger sister who is 10. Yes they are the most annoying people to live with in all the world, but I love them. </p>
         
         </div>
     
@@ -115,14 +119,6 @@
             
                 <h4 class="work3">Work Work Work</h4>
                 <h2 class="myportfolio">My Portfolio</h2>
-                
-                <div class="links">
-                
-                    <a href="#">ALL</a>
-                    <a href="#">SCHOOL</a>
-                    <a href="#">FUN</a>
-                
-                </div>
             
             </div>
             
@@ -130,7 +126,10 @@
                 
             <div class="port1">
                 
-                <img class="girlback" src="girlback.jpg">
+                
+                <a data-fancybox="gallery" href="girlback%20big.jpg">
+                <img class="girlback" src="girlback.jpg"></a>
+
                 <p class="girlbacktext">Back of the Library</p>
                 <p class="mediumback">Medium: Paint</p>
                 
@@ -138,8 +137,11 @@
                 
             <div class="port2">
                 
-                <img class="andrew" src="andrew.jpeg">
-                <p class="andrewtext">Foxhole Court Training</p>
+                <a data-fancybox="gallery" href="andrew%20big.jpeg">
+                <img class="andrew" src="andrew.jpeg"></a>
+                
+                
+                <p class="andrewtext">Foxhole Cour Training</p>
                 
                 <p class="andrewmedium">Medium: Pencil</p>
                 
@@ -147,7 +149,10 @@
                 
             <div class="port3">
                 
-                <img class="bleedingeyes" src="bleedingeyes.JPG">
+                <a data-fancybox="gallery" href="bleedingeyes%20big.JPG">
+                <img class="bleedingeyes" src="bleedingeyes.JPG"></a>
+                
+                
                 <p class="bleedingtext">Bleeding Eyes</p>
                 
                 <p class="bleedingmedium">Medium: Face Paint</p>
@@ -156,7 +161,9 @@
                 
             <div class="port4">
                 
-                <img class="marauders" src="marauders.jpeg">
+                <a data-fancybox="gallery" href="marauders%20big.jpeg">
+                <img class="marauders" src="marauders.jpeg"></a>
+                
                 <p class="marauderstext">Marauders</p>
                 
                 <p class="maraudersmedium">Medium: Autodesk Sketchbook</p>
@@ -165,7 +172,9 @@
                 
             <div class="port5">
                 
-                <img class="girlfront" src="girlfront.jpg">
+                <a data-fancybox="gallery" href="girlfront%20big.jpg">
+                <img class="girlfront" src="girlfront.jpg"></a>
+                
                 
                 <p class="girlfronttext">Blending In</p>
                 
@@ -175,7 +184,9 @@
                 
             <div class="port6">
                 
-                <img class="mortal" src="mortal.jpg">
+                <a data-fancybox="gallery" href="mortal%20big.jpg">
+                <img class="mortal" src="mortal.jpg"></a>
+    
                 
                 <p class="mortaltext">Mortal Instruments</p>
                 
@@ -186,7 +197,9 @@
                 
             <div class="port7">
                 
-                <img class="muscle" src="musclemakeup.JPG">
+                <a data-fancybox="gallery" href="musclemakeup%20big.JPG">
+                <img class="muscle" src="musclemakeup.JPG"></a>
+                
                 
                 <p class="muscletext">Muscle Makeup</p>
                 
@@ -196,7 +209,8 @@
                 
             <div class="port8">
                 
-                <img class="stone" src="stonepainting.JPG">
+                <a data-fancybox="gallery" href="stonepainting%20big.JPG">
+                <img class="stone" src="stonepainting.JPG"></a>
                 
                 <p class="stonetext">Stone Lady</p>
                 
@@ -206,7 +220,8 @@
                 
             <div class="port9">
                 
-                <img class="glow" src="glowgirl.JPG">
+                <a data-fancybox="gallery" href="glowgirl%20big.JPG">
+                <img class="glow" src="glowgirl.JPG"></a>
                 
                 <p class="glowtext">Glow Girl</p>
                 
@@ -220,35 +235,6 @@
     
     </div>
     
-    <div class="contact">
-    
-        <div class="contactbox">
-        
-            <h4 class="meme">MEMEME</h4>
-            
-            <h2 class="contactme">CONTACT ME</h2>
-            
-            <h3 class="name">NAME:</h3>
-            <div class="namebox"></div>
-            
-            <h3 class="email">EMAIL:</h3>
-            <div class="emailbox"></div>
-            
-            <h3 class="phone">PHONE NUMBER:</h3>
-            <div class="phonebox"></div>
-            
-            <h3 class="message">MESSAGE:</h3>
-            <div class="messagebox"></div>
-            
-            <div class="sendbox">
-            
-                <h3 class="send">SEND</h3>
-            
-            </div>
-        
-        </div>
-    
-    </div>
     
     <div class="socialmedia">
     
@@ -262,11 +248,17 @@
                 <img class="instagram" src="instagramlogo.jpg">
             </a>
             
-            <img class="facebook" src="facebooklogo.jpg">
+            <a href="https://www.facebook.com/ruby.crawshaw.94">
+                <img class="facebook" src="facebooklogo.jpg">
+            </a>
             
-            <img class="tumblr" src="tumblrlogo.jpg">
+            <a href="https://www.tumblr.com/blog/sketch-me-a-rainbow">
+                <img class="tumblr" src="tumblrlogo.jpg">
+            </a>
             
-            <img class="pinterest" src="Pinterestlogo.jpg">
+            <a href="https://www.pinterest.nz/rubycrawshaw/">
+                <img class="pinterest" src="Pinterestlogo.jpg">
+            </a>
         
         </div>
     

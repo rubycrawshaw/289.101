@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 *{
-    outline: 1px solid cya;
+    outline: 1px solid can;
 }
 body{
     background-color: white;
@@ -22,8 +22,8 @@ body{
     float: left;
     margin-top: 5px;
     font-size: 1rem;
-    margin-left: 227px;
-    margin-right: 227px;
+    margin-left: 280px;
+    margin-right: 280px;
 }
 .navlinks a{
     color: #543963;
@@ -282,7 +282,7 @@ body{
     margin-bottom: 10px;
 }
 .portfolio{
-    height: 800px;
+    height: 900px;
     background-color: #ffffff;
     padding: 1px 0px;
 }
@@ -312,23 +312,8 @@ body{
     font-size: 1.76rem;
     margin-top: 0px;
     margin-bottom: 10px;
-    margin-left: 368px;
-    margin-right: 368px;
-}
-.links{
-    float: left;
-    margin-top: 0px;
-    font-size: 0.75rem;
-    margin-left: 338px;
-    margin-right: 338px;
-}
-.links a{
-    color: #543963;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.links a:hover{
-    color: #fff568;
+    margin-left: 380px;
+    margin-right: 380px;
 }
 .port1{
     width: 270px;
@@ -636,136 +621,6 @@ body{
 .glow:hover{
     opacity: 0.3;
     filter: opacity(30);
-}
-.contact{
-    height: 500px;
-    background-color: #ad75cb;
-    padding: 1px 0px;
-    border-bottom: 5px solid #9862b5;
-}
-.contactbox{
-    width: 900px;
-    height: 460px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.meme{
-    color: #543963;
-    margin-top: 5px;
-    float: left;
-    margin-bottom: 10px;
-    margin-left: 420px;
-    margin-right: 420px;
-}
-.contactme{
-    color: #9348bc;
-    float: left;
-    margin-left: 364px;
-    margin-right: 363px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 2rem;
-}
-.name{
-    float: left;
-    font-size: 1rem;
-    color: #543963;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 12px;
-}
-.namebox{
-    width: 636px;
-    height: 20px;
-    background-color: #ca9ee3;
-    outline: 1px solid #ffffff;
-    margin-right: 100px;
-    margin-top: 20px;
-    margin-left: 0px;
-    float: left;
-    margin-bottom: 12px;
-}
-.email{
-    float: left;
-    font-size: 1rem;
-    color: #543963;
-    margin-left: 100px;
-    margin-top: 12px;
-    margin-right: 20px;
-    margin-bottom: 12px; 
-}
-.emailbox{
-    width: 635px;
-    height: 20px;
-    background-color: #ca9ee3;
-    outline: 1px solid #ffffff;
-    margin-right: 100px;
-    margin-top: 12px;
-    margin-left: 0px;
-    float: left;
-    margin-bottom: 12px;
-}
-.phone{
-    float: left;
-    font-size: 1rem;
-    color: #543963;
-    margin-left: 100px;
-    margin-top: 12px;
-    margin-right: 20px;
-    margin-bottom: 12px;
-}
-.phonebox{
-    width: 570px;
-    height: 20px;
-    background-color: #ca9ee3;
-    outline: 1px solid #ffffff;
-    margin-right: 100px;
-    margin-top: 12px;
-    margin-left: 0px;
-    float: left;
-    margin-bottom: 12px;
-}
-.message{
-    float: left;
-    font-size: 1rem;
-    color: #543963;
-    margin-left: 100px;
-    margin-top: 12px;
-    margin-right: 20px;
-    margin-bottom: 12px;
-}
-.messagebox{
-    width: 613px;
-    height: 100px;
-    background-color: #ca9ee3;
-    outline: 1px solid #ffffff;
-    margin-right: 100px;
-    margin-top: 12px;
-    margin-left: 0px;
-    float: left;
-    margin-bottom: 30px;
-}
-.send{
-    float: left;
-    width: 70px;
-    height: 40px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 8px;
-    margin-bottom: 9px;
-    color: #543963;
-    padding: 10px;
-    font-size: 2rem;
-    background-color: #ca9ee3;
-    outline: 1px solid #ffffff;
-}
-.send:hover{
-    color: #e5a62b;
-    background-color: #fff896;
-    outline: 2px solid #e5a62b;
 }
 .socialmedia{
     height: 250px;
