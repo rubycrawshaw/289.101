@@ -18,18 +18,17 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.img{
-    width: 20px;
-    height: 18px;
-    opacity: 1;
-    filter: opacity(100);
-    float: right;
-    margin-top: 6px;
-    margin-bottom: 6px;
+.navlinks{
+    float: left;
+    margin-top: 5px;
+    font-size: 1rem;
+    margin-left: 227px;
+    margin-right: 227px;
 }
-.img:hover{
-    opacity: 0.3;
-    filter: opacity(30);
+.navlinks a{
+    color: #543963;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .welcome{
     height: 600px;
@@ -55,7 +54,7 @@ body{
     margin-right: 200px;
     margin-bottom: 0px;
 }
-.name{
+.nameruby{
     color: #9348bc;
     float: left;
     font-size: 4.5em;
@@ -71,12 +70,12 @@ body{
     font-size: 1rem;
 }
 .aboutme{
-    height: 300px;
+    height: 250px;
     background-color: #f2f2f2;
     padding: 1px 0;
 }
 .aboutbox{
-    height: 250px;
+    height: 200px;
     width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -105,43 +104,10 @@ body{
     width: 750px;
     margin-left: 75px;
     margin-right: 75px;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: #543963;
-}
-.past{
-    background-color: #fff568;
-    float: left;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 350px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #543963;
-    filter: opacity(100)
-}
-.future{
-    background-color: #fff568;
-    float: right;
-    padding-left: 23px;
-    padding-right: 22px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right: 350px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #543963;
-    filter: opacity(100)
-}
-.past:hover{
-    background-color: #ffffff;
-    color: #f9d33d;
-}
-.future:hover{
-    background-color: #ffffff;
-    color: #f9d33d;
+    font-size: 1rem;
 }
 .school{
     height: 500px;
@@ -355,12 +321,14 @@ body{
     font-size: 0.75rem;
     margin-left: 338px;
     margin-right: 338px;
-    color: #543963;
 }
 .links a{
     color: #543963;
     padding-left: 20px;
     padding-right: 20px;
+}
+.links a:hover{
+    color: #fff568;
 }
 .port1{
     width: 270px;
@@ -683,116 +651,121 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.contactname{
-    width: 900px;
-    height: 50px;
-}
-.contactn{
+.meme{
     color: #543963;
-    font-size: 1rem;
+    margin-top: 5px;
     float: left;
+    margin-bottom: 10px;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+.contactme{
+    color: #9348bc;
+    float: left;
+    margin-left: 364px;
+    margin-right: 363px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.name{
+    float: left;
+    font-size: 1rem;
+    color: #543963;
     margin-left: 100px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
     margin-right: 20px;
+    margin-bottom: 12px;
 }
 .namebox{
-    width: 630px;
-    height: 25px;
+    width: 636px;
+    height: 20px;
     background-color: #ca9ee3;
-    float: left;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    margin-right: 100px;
     outline: 1px solid #ffffff;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-left: 0px;
+    float: left;
+    margin-bottom: 12px;
 }
 .email{
-    width: 900px;
-    height: 50px;
-}
-.emailtext{
-    color: #543963;
-    font-size: 1rem;
     float: left;
+    font-size: 1rem;
+    color: #543963;
     margin-left: 100px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 12px;
     margin-right: 20px;
+    margin-bottom: 12px; 
 }
 .emailbox{
-    width: 631px;
-    height: 25px;
+    width: 635px;
+    height: 20px;
     background-color: #ca9ee3;
+    outline: 1px solid #ffffff;
+    margin-right: 100px;
     margin-top: 12px;
+    margin-left: 0px;
     float: left;
     margin-bottom: 12px;
-    margin-right: 100px;
-    outline: 1px solid #ffffff;
 }
 .phone{
-    width: 900px;
-    height: 50px;
-}
-.phonenumber{
-    font-size: 1rem;
     float: left;
-    margin-left: 100px;
-    margin-right: 20px;
+    font-size: 1rem;
     color: #543963;
-    margin-bottom: 15px;
-    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-top: 12px;
+    margin-right: 20px;
+    margin-bottom: 12px;
 }
 .phonebox{
+    width: 570px;
+    height: 20px;
+    background-color: #ca9ee3;
+    outline: 1px solid #ffffff;
     margin-right: 100px;
-    width: 560px;
-    height: 25px;
+    margin-top: 12px;
+    margin-left: 0px;
     float: left;
     margin-bottom: 12px;
-    margin-top: 12px;
-    background-color: #ca9ee3;
-    outline: 1px solid #ffffff;
 }
 .message{
-    widows: 900px;
-    height: 230px;
-}
-.messagetext{
+    float: left;
     font-size: 1rem;
     color: #543963;
-    float: left;
     margin-left: 100px;
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 12px;
     margin-right: 20px;
+    margin-bottom: 12px;
 }
 .messagebox{
-    width: 606px;
-    height: 200px;
+    width: 613px;
+    height: 100px;
     background-color: #ca9ee3;
-    float: left;
-    margin-top: 12px;
+    outline: 1px solid #ffffff;
     margin-right: 100px;
+    margin-top: 12px;
+    margin-left: 0px;
+    float: left;
+    margin-bottom: 30px;
+}
+.send{
+    float: left;
+    width: 70px;
+    height: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+    color: #543963;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: #ca9ee3;
     outline: 1px solid #ffffff;
 }
-.contacttitle{
-    width: 900px;
-    height: 80px;
-}
-.tiltecontact{
-    color: #543963;
-    float: left;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-left: 363px;
-    margin-right: 363px;
-}
-.meme{
-    font-size: .9rem;
-    color: #9348bc;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    float: left;
-    margin-left: 410px;
+.send:hover{
+    color: #e5a62b;
+    background-color: #fff896;
+    outline: 2px solid #e5a62b;
 }
 .socialmedia{
     height: 250px;
