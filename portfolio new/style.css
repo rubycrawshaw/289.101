@@ -1,11 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 *{
+<<<<<<< HEAD:portfolio new/style.css
     outline: 1px solid cya;
+=======
+    outline: 1px solid can;
+>>>>>>> 67595268824fce0490a7cd00c1e7bf4dbb50bfaa:Portfolio Website/Portfolio/portfolio new/style.css
 }
 body{
     background-color: white;
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    background-color: white;
+    color: #51177d;
+    height: 30px;
+    border-bottom: 5px solid #f2f2f2;
+}
+.nav{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navlinks{
+    float: left;
+    margin-top: 5px;
+    font-size: 1rem;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+.navlinks a{
+    color: #543963;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .welcome{
     height: 600px;
@@ -306,8 +333,8 @@ body{
     margin-top: 20px;
     font-size: 1rem;
     color: #543963;
-    margin-left: 395px;
-    margin-right: 395px;
+    margin-left: 385px;
+    margin-right: 385px;
     margin-bottom: 5px;
 }
 .myportfolio{
