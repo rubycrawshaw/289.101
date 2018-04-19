@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 *{
-    outline: 1px solid cyan;
+    outline: 1px solid cya;
 }
 body{
     background-color: white;
@@ -13,6 +13,32 @@ body{
     background-color: #ffffff;
     border-bottom: 5px solid #f2f2f2
 }
+.header{
+    background-color: white;
+    color: #51177d;
+    height: 30px;
+    border-bottom: 5px solid #f2f2f2;
+}
+.nav{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navlinks{
+    float: left;
+    margin-top: 5px;
+    font-size: 1rem;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+.navlinks a:hover{
+    color: #ffea3a;
+}
+.navlinks a{
+    color: #543963;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .hi{
     height: 600px;
     width: 900px;
@@ -24,7 +50,7 @@ body{
     float: left;
 }
 .ruby{
-    color: #543963;
+    color: #ffea3a;;
     float: left;
     font-size: 3em;
     margin-top: 200px;
@@ -370,6 +396,7 @@ body{
     margin-left: 10px;
     opacity: 1;
     filter: opacity(100);
+    outline: 2px solid #ffea3a;
 }
 .girlbacktext{
     float: left;
@@ -397,6 +424,7 @@ body{
     margin-left: 20px;
     opacity: 1;
     filter: opacity(100);
+    outline: 2px solid #ffea3a;
 }
 .andrewtext{
     float: left;
@@ -423,6 +451,7 @@ body{
     margin-left: 20px;
     opacity: 1;
     filter: opacity(100);
+    outline: 2px solid #ffea3a;
 }
 .bleedingtext{
     float: left;
@@ -449,6 +478,7 @@ body{
     margin-left: 15px;
     opacity: 1;
     filter: opacity(100);
+    outline: 2px solid #ffea3a;
 }
 .marauderstext{
     color: #543963;
@@ -475,6 +505,7 @@ body{
     margin-left: 15px;
     opacity: 1;
     filter: opacity(100);
+    outline: 2px solid #ffea3a;
 }
 .girlfronttext{
     color: #543963;
@@ -501,6 +532,7 @@ body{
     margin-left: 15px;
     opacity: 1;
     filter: opacity(100);
+    outline: 2px solid #ffea3a;
 }
 .mortaltext{
     color: #543963;
@@ -527,6 +559,7 @@ body{
     margin-left: 20px;
     opacity: 1;
     filter: opacity(100);
+    outline: 2px solid #ffea3a;
 }
 .muscletext{
     color: #543963;
@@ -553,6 +586,7 @@ body{
     margin-left: 20px;
     filter: opacity(100);
     opacity: 1;
+    outline: 2px solid #ffea3a;
 }
 .stonetext{
     float: left;
@@ -579,6 +613,7 @@ body{
     margin-left: 20px;
     opacity: 1;
     filter: opacity(100);
+    outline: 2px solid #ffea3a;
 }
 .glowtext{
     font-size: 0.9rem;
