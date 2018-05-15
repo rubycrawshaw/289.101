@@ -50,18 +50,18 @@
 <body>
 
   <div id="controls">
-    <a id="eyes_up_btn">move eyes up</a>
-    <a id="eyes_down_btn">move eyes down</a>
-    <a>move eyes closer together</a>
-    <a>move eyes further apart</a>
-    <a>hollow eyes</a>
-    <a>solid eyes</a>
-    <a>big eyes</a>
-    <a>small eyes</a>
-    <a>no right eye</a>
-    <a>happy mouth</a>
-    <a id="sad_mouth_btn">sad mouth</a>
-    <a>reset face</a>
+    <a id="eyes_up_btn">Move Eyes Up</a>
+    <a id="eyes_down_btn">Move Eyes Down</a>
+    <a>Move Eyes Closer Together</a>
+    <a>Move Eyes Further Apart</a>
+    <a>Hollow Eyes</a>
+    <a>Solid Eyes</a>
+    <a>Big Eyes</a>
+    <a>Small Eyes</a>
+    <a>No Right Eye</a>
+    <a>Happy Mouth</a>
+    <a id="sad_mouth_btn">Sad Mouth</a>
+    <a>Reset Face</a>
   </div>
 
   <div id="face">
@@ -90,7 +90,7 @@
       //mouth initial postition
       document.getElementById('mouth').style.left = mouth_x + 'px';
       document.getElementById('mouth').style.top = mouth_y + 'px';
-
+      
     // move eyes up event listener
       document.getElementById('eyes_up_btn').addEventListener('click', function() {
       eye_left_y -= 10;
@@ -107,7 +107,7 @@
       });
     //make sad
       document.getElementById('sad_mouth_btn').addEventListener('click', function(){
-               document.getElementById('sadmouth').src = 'mouth_sad.svg';                 
+               document.getElementById('sad_mouth_btn').src = 'mouth_sad.svg';                 
     });
     
     //make happy
