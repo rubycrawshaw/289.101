@@ -44,6 +44,15 @@
         position: absolute;
         width: 200px;
       }
+        
+        #sad_mouth {
+        position: absolute;
+        left: 200px;
+        right: 500px;
+        width: 200px;
+        
+      }
+        
     </style>
 </head>
 
@@ -52,14 +61,14 @@
   <div id="controls">
     <a id="eyes_up_btn">Move Eyes Up</a>
     <a id="eyes_down_btn">Move Eyes Down</a>
-    <a>Move Eyes Closer Together</a>
+    <a id="move_eyes_together_btn">Move Eyes Closer Together</a>
     <a>Move Eyes Further Apart</a>
     <a>Hollow Eyes</a>
     <a>Solid Eyes</a>
     <a>Big Eyes</a>
     <a>Small Eyes</a>
     <a>No Right Eye</a>
-    <a>Happy Mouth</a>
+    <a id="mouth_btn">Happy Mouth</a>
     <a id="sad_mouth_btn">Sad Mouth</a>
     <a>Reset Face</a>
   </div>
@@ -68,12 +77,15 @@
       <img id="eye_left" src="eye_solid.svg" />
       <img id="eye_right" src="eye_solid.svg" />
       <img id="mouth" src="mouth_happy.svg" />
+      <img id="sad_mouth" src="mouth_sad.svg" />
   </div>
 
   <script>
       
       var mouth_x = 100;
       var mouth_y = 250;
+      var sad_mouth_x = 100;
+      var sad_mouth_y = 600;
       
     // coordinate variables
       var eye_left_x = 100;
@@ -91,6 +103,10 @@
       document.getElementById('mouth').style.left = mouth_x + 'px';
       document.getElementById('mouth').style.top = mouth_y + 'px';
       
+      ///sad mouth initial postition
+      document.getElementById('sad_mouth').style.left = sad_mouth_x + 'px';
+      document.getElementById('sad_mouth').style.right = sad_mouth_y + 'px';
+      
     // move eyes up event listener
       document.getElementById('eyes_up_btn').addEventListener('click', function() {
       eye_left_y -= 10;
@@ -98,6 +114,7 @@
       eye_right_y -= 10;
       document.getElementById('eye_right').style.top = eye_right_y + 'px';
     });
+
     // move eyes down event listener
       document.getElementById('eyes_down_btn').addEventListener('click', function() {
           eye_left_y += 10;
@@ -105,12 +122,23 @@
           eye_right_y += 10;
           document.getElementById('eye_right').style.top = eye_right_y + 'px';
       });
-    //make sad
-      document.getElementById('sad_mouth_btn').addEventListener('click', function(){
-               document.getElementById('sad_mouth_btn').src = 'mouth_sad.svg';                 
-    });
+      
+      //sad mouth placement
+      document.getElementById('sad_mouth_btn').addEventListener('click', function() {
+          sad_mouth_x -= 10;
+          document.getElementById('sad_mouth').style.top = sad_mouth_x + 'px';
+          sad_mouth_y -= 10;
+          document.getElementById('sad_mouth').style.top = sad_mouth_y + 'px';
+      })
+      
+      //eyes move together
+      document.getElementById('move_eyes_together_btn').addEventListener('click', function(){
+          eye_left_x += 10;
+          document.getElementById('eye_left').style.top = eye_left_x + 'px';
+          eye_right_x += 10;
+          document.getElementById('eye_left').style.top = eye_right_x + 'px';
+      })
     
-    //make happy
   </script>
 
 </body>
