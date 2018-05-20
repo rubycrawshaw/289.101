@@ -68,7 +68,7 @@
     <a>Big Eyes</a>
     <a>Small Eyes</a>
     <a>No Right Eye</a>
-    <a id="mouth_btn">Happy Mouth</a>
+    <a id="happy_mouth_btn">Happy Mouth</a>
     <a id="sad_mouth_btn">Sad Mouth</a>
     <a>Reset Face</a>
   </div>
@@ -77,7 +77,6 @@
       <img id="eye_left" src="eye_solid.svg" />
       <img id="eye_right" src="eye_solid.svg" />
       <img id="mouth" src="mouth_happy.svg" />
-      <img id="sad_mouth" src="mouth_sad.svg" />
   </div>
 
   <script>
@@ -103,10 +102,6 @@
       document.getElementById('mouth').style.left = mouth_x + 'px';
       document.getElementById('mouth').style.top = mouth_y + 'px';
       
-      ///sad mouth initial postition
-      document.getElementById('sad_mouth').style.left = sad_mouth_x + 'px';
-      document.getElementById('sad_mouth').style.right = sad_mouth_y + 'px';
-      
     // move eyes up event listener
       document.getElementById('eyes_up_btn').addEventListener('click', function() {
       eye_left_y -= 10;
@@ -124,12 +119,13 @@
       });
       
       //sad mouth placement
-      document.getElementById('sad_mouth_btn').addEventListener('click', function() {
-          sad_mouth_x -= 10;
-          document.getElementById('sad_mouth').style.top = sad_mouth_x + 'px';
-          sad_mouth_y -= 10;
-          document.getElementById('sad_mouth').style.top = sad_mouth_y + 'px';
-      })
+      document.getElementById('sad_mouth_btn').addEventListener('click', function(){
+          document.getElementById('mouth').src = 'mouth_sad.svg';
+      });
+       //happy mouth placement
+      document.getElementById('happy_mouth_btn').addEventListener('click', function(){
+          document.getElementById('mouth').src = 'mouth_happy.svg';
+      });
       
       //eyes move together
       document.getElementById('move_eyes_together_btn').addEventListener('click', function(){
